@@ -1,0 +1,20 @@
+{
+    "name": "Creusot",
+    
+    "build": {
+        "dockerfile": "./Dockerfile"
+    },
+
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "whycode.extraArgs": ["-L/creusot/prelude"]
+            },
+            "extensions": [
+                "xldenis.whycode",
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    }
+}
